@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 04-Set-2018 às 16:11
+-- Generation Time: 04-Set-2018 às 21:03
 -- Versão do servidor: 10.1.34-MariaDB
 -- PHP Version: 7.2.8
 
@@ -39,8 +39,9 @@ CREATE TABLE `contatos` (
 --
 
 INSERT INTO `contatos` (`id`, `nome`, `email`) VALUES
-(2, '', 'Fulano@gmail.com.br'),
-(5, 'Teste', 'hoeoe@gmail.com');
+(2, 'Goin', 'Fulano@gmail.com.br'),
+(5, 'Teste Lucas', 'Lucashoeoe@gmail.com'),
+(6, 'Pedro', 'pedro@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +61,7 @@ ALTER TABLE `contatos`
 -- AUTO_INCREMENT for table `contatos`
 --
 ALTER TABLE `contatos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
