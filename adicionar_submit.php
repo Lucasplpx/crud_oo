@@ -8,7 +8,6 @@ if(!empty($_POST['email'])){
 
     $contato->adicionar($email, $nome);
 
-    header("Location: index.php");
-} else {
-    header("Location: adicionar.html");
-}
+    
+} 
+header("Location: index.php");
